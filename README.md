@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Dependencies
 - [axios](https://github.com/axios/axios)
   - ```npm install axios --save```
-- skeleton-css 
+- [skeleton-css](http://getskeleton.com/) 
 
 ## external apis
 - [hipster-jesus](http://hipsterjesus.com/)
