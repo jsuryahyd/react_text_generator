@@ -2,7 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ### My Practice to make and deploy a react app to firebase hosting
+## [Sample Text Generator](https://react-text-generator.firebaseapp.com/)
 
+Inspired by this video - [Build & Deploy A React JS Text Generator App](https://youtu.be/yU5DYccb77A) by traversy media
 ## Dependencies
 - [axios](https://github.com/axios/axios)
   - ```npm install axios --save```
