@@ -22,7 +22,8 @@ Goto your server folder,
 select hosting
 ``` firebase deploy```
 
-#Todo
+# Todo
  it is still buggy - 
  - doesnot give number of sentences asked( only one sentence is given)
  - json is also ouput as text.
+ - also, implementation with plain xhr doesnot give paras - gives only sentences.
