@@ -19,7 +19,7 @@ setStart(options){
 }
     setFormat(option){
         this.setState({format:option},()=>{
-            console.log(this.state);
+            // console.log(this.state);
             this.props.showOutput(this.state);
         });
         
@@ -46,7 +46,7 @@ setStart(options){
         // option = option==="paragraph" ? 0 : Number(this.refs.paras.value);
         //since above refs.paras.value doesnot update on change, use state.paras
         option = option==="paragraph" ? 0 : Number(this.state.paras);
-        console.log('sentence',option);
+        // console.log('sentence',option);
         this.setState({sentence:option},()=>{
             // console.log(this.props)
         this.props.showOutput(this.state)})

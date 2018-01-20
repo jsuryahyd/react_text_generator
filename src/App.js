@@ -9,17 +9,17 @@ class App extends Component {
   output = '';
 state={option:true,output:[]}
 renderParas(options){
-  console.log(options);
+  // console.log(options);
   let params = {};
   params['start-with-lorem'] = options.starts_with;
   params['format']=options.format;
   params['sentences']=options.sentence;
   params['paras'] = Number(options.paras);
   params['type'] = options.all_meat ? 'all-meat' : 'meat-and-filler';
-  console.log(params);
+  // console.log(params);
   axios.get('https://baconipsum.com/api/',{params:params}).then((response)=>{console.log(response);
 this.setState({output:response.data});
-console.table(response.headers);
+// console.table(response.headers);
 }).catch((err)=>{console.log(err)});
 
 
@@ -38,6 +38,16 @@ console.table(response.headers);
 //   this.setState( {output : req.responseText});
 // }
 // req.send()
+
+//https://stackoverflow.com/a/31713191/7314900
+// function formatParams( params ){
+//   return "?" + Object
+//         .keys(params)
+//         .map(function(key){
+//           return key+"="+encodeURIComponent(params[key])
+//         })
+//         .join("&")
+// }
 
 }
 
